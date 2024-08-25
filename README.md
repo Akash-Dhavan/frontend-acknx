@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+Frontend Acknx
+Frontend Acknx is a React-based application that demonstrates the integration of various components, modals, and charting libraries.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+React: Core library for building the user interface.
+Bootstrap: Styling framework for responsive design.
+Chart.js & Recharts: Libraries for rendering charts.
+React Router: For client-side routing.
+React-Bootstrap: Bootstrap components for React.
+Getting Started
+To get started with the project, follow the instructions below:
 
-## Available Scripts
+Prerequisites
+Ensure you have the following installed:
 
-In the project directory, you can run:
+Node.js (v14 or later)
+npm (comes with Node.js) or Yarn
+Installation
+Clone the repository:
 
-### `npm start`
+bash
+Copy code
+git clone https://github.com/Akash-Dhavan/frontend-acknx.git
+Navigate into the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+cd frontend-acknx
+Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Since the node_modules directory is not included in the repository, you need to install the dependencies listed in package.json:
 
-### `npm test`
+bash
+Copy code
+npm install
+Or if you are using Yarn:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+yarn install
+Running the Application
+To start the development server and view the application:
 
-### `npm run build`
+bash
+Copy code
+npm start
+Or with Yarn:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+yarn start
+This will open the application in your default web browser at http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Building for Production
+To create a production build of the application:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy code
+npm run build
+Or with Yarn:
 
-### `npm run eject`
+bash
+Copy code
+yarn build
+The build will be output to the build directory, ready for deployment.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Running Tests
+To run the tests for the application:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy code
+npm test
+Or with Yarn:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy code
+yarn test
+Ejecting
+If you need to customize the configuration beyond what create-react-app offers, you can eject:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+npm run eject
+Or with Yarn:
 
-## Learn More
+bash
+Copy code
+yarn eject
+Note: Ejecting is a one-way operation and will make your configuration files editable.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgments
+React
+Bootstrap
+Chart.js
+Recharts
