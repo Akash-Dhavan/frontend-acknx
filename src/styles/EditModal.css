@@ -1,0 +1,14 @@
+.modal-dialog-custom {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    max-width: 400px; 
+    margin: 0;
+  }
+  
+  .custom-modal-content {
+    height: 100%;
+    border-radius: 0;
+  }
+  
